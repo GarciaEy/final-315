@@ -1,0 +1,134 @@
+#signinApp {
+  // background-color: blue;
+
+  .logo-header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    a {
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      img {
+        height: 30%;
+      }
+    }
+  }
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    // background-color: purple;
+
+    .left-box {
+      margin-right: 50px;
+
+      h1 {
+        font-size: 21px;
+        font-family: Markot;
+        color: #aa8066;
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      #siEmail {
+        height: 52px;
+        width: 320px;
+        border-radius: 25px;
+        border: 1px solid #ccc;
+        background-color: white;
+        margin-bottom: 24px;
+
+        color: rgba(0, 0, 0, 0.519);
+        font-size: 14px;
+        font-weight: lighter;
+        font-family: Markot;
+      }
+
+      #siSubmit {
+        height: 52px;
+        width: 320px;
+        border-radius: 25px;
+        border: none;
+        background-color: #3b2b2f;
+        margin-bottom: 20px;
+
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: Markot;
+        text-transform: uppercase;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      .no-account {
+        color: black;
+        font-size: 14px;
+        font-family: Markot;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        a {
+          // text-decoration: none;
+          color: black;
+        }
+      }
+    }
+
+    .right-box {
+      // background-color: blue;
+      margin-left: 50px;
+
+      img {
+        width: 290px;
+        height: 430px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .sign-in-footer {
+    position: relative;
+    bottom: -20px;
+    width: 100%;
+    min-height: 60px;
+    margin: 30px 0px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    font-style: italic;
+    font-size: 12px;
+    font-family: Markot;
+    color: rgba(0, 0, 0, 0.667);
+    font-weight: 400px;
+    list-style: none;
+    align-items: center;
+
+    #copy-list {
+      position: relative;
+      display: inline-flex;
+      right: 150px;
+      top: 15px;
+      padding-right: 40px;
+    }
+    #terms-list {
+      position: relative;
+      display: inline-flex;
+      left: 200px;
+      // list-style: none;
+
+      span {
+        padding-right: 20px;
+      }
+    }
+  }
+}

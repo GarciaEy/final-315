@@ -1,0 +1,34 @@
+{
+  "PRODUCTS": [
+    {
+      "product-image": "/dist/images/K-Brew-and-Chill-Single-Serve-Coffee-Maker_5000380296_swatch.webp",
+      "product-name": "K-Brew + Chill™ Coffee Maker",
+      "current-price": "$99.99",
+      "original-price": "$199.99",
+      "Keurig": "with Keurig® Starter Kit",
+      "final-price": "$199.99",
+      "coupon-badge": "Coupon",
+      "percent": "20% OFF - GIFTYBREWS",
+      "excludes": "Excludes Keurig Starter Kit",
+      "stars": "⭐️⭐️⭐️⭐️⭐️",
+      "rating-number": "4.6 (267)",
+      "shipping": "Free shipping",
+      "compare": "Compare"
+    },
+    {
+      "product-image": "/dist/images/K-Brew-and-Chill-Single-Serve-Coffee-Maker_5000380296_swatch.webp",
+      "product-name": "K-Brew + Chill™ Coffee Maker",
+      "current-price": "$99.99",
+      "original-price": "$199.99",
+      "Keurig": "with Keurig® Starter Kit",
+      "final-price": "$199.99",
+      "coupon-badge": "Coupon",
+      "percent": "20% OFF - GIFTYBREWS",
+      "excludes": "Excludes Keurig Starter Kit",
+      "stars": "⭐️⭐️⭐️⭐️⭐️",
+      "rating-number": "4.6 (267)",
+      "shipping": "Free shipping",
+      "compare": "Compare"
+    }
+  ]
+}

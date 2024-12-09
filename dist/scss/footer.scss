@@ -1,0 +1,118 @@
+.footer {
+  background-color: #fff;
+  color: #000;
+  font-size: 14px;
+  font-family: Markot;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.footer .top-bar {
+  background-color: #4b2f2f;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+  border-bottom: 1px solid #666;
+}
+
+.footer .top-bar p {
+  margin: 0;
+}
+
+.footer .top-bar .social-links {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.footer .top-bar a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap;
+  background-color: #fff; /* White background for the main footer area */
+}
+
+.footer .footer-column {
+  flex: 1;
+  padding: 10px;
+  min-width: 250px;
+}
+
+.footer .footer-section {
+  margin-bottom: 20px;
+}
+
+.footer .footer-section h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer .footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer .footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.footer .footer-section ul li a {
+  text-decoration: none;
+  color: #000; /* Black text for links */
+}
+
+.mailing-list {
+  width: 300px;
+}
+
+.footer .footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer .join-mailing-list form {
+  display: flex;
+  gap: 5px;
+  margin: 10px 0;
+}
+
+.footer .join-mailing-list input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.footer .join-mailing-list button {
+  color: #000;
+  background-color: transparent;
+  border: 1px solid #ffd700;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.footer .join-mailing-list button:hover {
+  background-color: #e5c100;
+}
+
+.footer .select-country {
+  margin-top: 20px;
+}
+
+.footer .select-country span {
+  display: block;
+  margin-top: 10px;
+}

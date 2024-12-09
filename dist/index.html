@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="banner">
+        <p id="boxes">5 Boxes of K-Cup® Pods for $60.</p>
+        <p id="code">Use Code: BREW5FOR60l</p>
+        <p id="shop">shop now</p>
+        <p id="details">See Details</p>
+        <p id="x">X</p>
+      </div>
+      <div class="nav-middle">
+        <div class="nav-middle-top">
+          <div class="logo">
+            <img src="images/Keurig-Logo-Vector.svg-.png" alt="" />
+          </div>
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="shipping">FREE SHIPPING $29+</div>
+          <div class="account-holder">
+            <div class="support">
+              <i class="fa-solid fa-hands-holding-circle"></i>
+              <p>Support</p>
+            </div>
+            <a
+              href="pages/signin.html"
+              class="account"
+              style="text-decoration: none; color: black"
+            >
+              <i class="fa-solid fa-user"></i>
+              <p>Account</p>
+            </a>
+            <div class="cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <a href="/dist/pages/cart.html"
+                >Cart <span class="addNum">0</span>
+              </a>
+              <div class="item-text"></div>
+            </div>
+          </div>
+        </div>
+        <div class="nav-middle-bottom">
+          <ul id="menu">
+            <li id="kit">Keurig® Starter Kit</li>
+            <li id="delivery">Start Auto-Delivery</li>
+            <li id="beverages">beverages</li>
+            <li id="coffee-makers">coffee Makers</li>
+            <li id="accessories">Accessories</li>
+            <li id="deal">
+              <i class="fa-regular fa-clock"></i>
+              <p>Deals</p>
+            </li>
+            <li id="recipes">recipes and More</li>
+            <li id="outlet">
+              <i class="fa-solid fa-tag"></i>
+              <p>Outlet</p>
+            </li>
+            <li id="sustainability">Sustainability</li>
+            <li id="perks">Perks</li>
+          </ul>
+        </div>
+      </div>
+      <div class="nav-bottom">
+        <div class="box-1">
+          EXTRA 20% off Beverage Sale Prices Use code: GIFTYBREWS Ends 12/11.
+        </div>
+        <div class="box-2">
+          Save $150 on a K-Cafe® Special Edition when you build a Starter Kit
+          BUILD YOUR KIT
+        </div>
+        <div class="box-3">
+          TOP PICK! Save over 50% on a K-Select® - only $69.99 No Coupon Needed
+          SHOP NOW
+        </div>
+        <div class="box-4">
+          20% Off Accessories Use Code: GIFTYBREWS Ends 12/11.
+        </div>
+      </div>
+      <div class="links"></div>
+    </nav>
+
+    <div id="app">
+      <div class="wrapper">
+        <div class="header-img-holder">
+          <img src="/dist/images/124cm-clpheader-desktop.webp" alt="" />
+        </div>
+        <div class="filter-nav">
+          <button>Categories v</button>
+          <button>Features v</button>
+          <button>Brew Type v</button>
+          <button>Reservoir v</button>
+          <button>Commercial v</button>
+          <button class="color">Color v</button>
+          <div class="sort">
+            <label for="sort" class="sort-text">Sort by</label>
+            <select id="sort">
+              <option>Popularity (all time)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="product-wrapper">
+        <div class="product-card">
+          <div class="badge">2 FREE BOXES - BREW2FREE</div>
+          <div class="product-image">
+            <img
+              src="/dist/images/K-Brew-and-Chill-Single-Serve-Coffee-Maker_5000380296_swatch.webp"
+              alt="Keurig Coffee Maker"
+            />
+          </div>
+          <div class="circle-border"></div>
+          <div class="circle"></div>
+          <h2 class="product-name">K-Brew + Chill™ Coffee Maker</h2>
+          <div class="price">
+            <span class="current-price">$99.99</span>
+            <span class="original-price">$199.99</span>
+          </div>
+          <span class="Keurig">with Keurig® Starter Kit</span>
+          <div class="final-price"><p>$199.99</p></div>
+          <div class="coupon">
+            <span class="coupon-badge">Coupon</span>
+            <span class="percent">20% OFF - GIFTYBREWS</span>
+            <p class="excludes">Excludes Keurig Starter Kit</p>
+          </div>
+          <div class="ratings">
+            <span class="stars">⭐️⭐️⭐️⭐️⭐️</span>
+            <span class="rating-number">4.6 (267)</span>
+          </div>
+          <div class="shipping">🚚 Free shipping</div>
+          <div class="compare">
+            <input type="checkbox" id="compare" />
+            <label for="compare">Compare</label>
+          </div>
+          <button onclick="addToCart()" class="buy-now">BUY NOW</button>
+        </div>
+        <div class="product-card">
+          <div class="badge">2 FREE BOXES - BREW2FREE</div>
+          <div class="product-image">
+            <img
+              src="/dist/images/K-Cafe-SMART-Coffee-Latte-Cappuccino-Maker_5000365485_swatch.webp"
+              alt="Keurig Coffee Maker"
+            />
+          </div>
+          <div class="circle-border"></div>
+          <div class="circle"></div>
+          <h2 class="product-name">K Cafe SMART Coffee Maker</h2>
+          <div class="price">
+            <span class="current-price">$89.99</span>
+            <span class="original-price">$299.99</span>
+          </div>
+          <span class="Keurig">with Keurig® Starter Kit</span>
+          <div class="final-price"><p>$299.99</p></div>
+          <div class="coupon">
+            <span class="coupon-badge">Coupon</span>
+            <span class="percent">20% OFF - GIFTYBREWS</span>
+            <p class="excludes">Excludes Keurig Starter Kit</p>
+          </div>
+          <div class="ratings">
+            <span class="stars">⭐️⭐️⭐️⭐️⭐️</span>
+            <span class="rating-number">4.6 (267)</span>
+          </div>
+          <div class="shipping">🚚 Free shipping</div>
+          <div class="compare">
+            <input type="checkbox" id="compare" />
+            <label for="compare">Compare</label>
+          </div>
+          <button onclick="addToCart()" class="buy-now">BUY NOW</button>
+        </div>
+        <div class="product-card">
+          <div class="badge-red">40% OFF - BREW4FREE</div>
+          <div class="product-image">
+            <img
+              src="/dist/images/K-Cafe-Special-Edition-Coffee-Latte-Cappuccino-Maker_5000341465_swatch.webp"
+              alt="Keurig Coffee Maker"
+            />
+          </div>
+          <div class="circle-border"></div>
+          <div class="circle"></div>
+          <h2 class="product-name">K-Cafe Special Edition Maker</h2>
+          <div class="price">
+            <span class="current-price">$79.99</span>
+            <span class="original-price">$399.99</span>
+          </div>
+          <span class="Keurig">with Keurig® Starter Kit</span>
+          <div class="final-price"><p>$399.99</p></div>
+          <div class="coupon">
+            <span class="coupon-badge">Coupon</span>
+            <span class="percent">20% OFF - GIFTYBREWS</span>
+            <p class="excludes">Excludes Keurig Starter Kit</p>
+          </div>
+          <div class="ratings">
+            <span class="stars">⭐️⭐️⭐️⭐️⭐️</span>
+            <span class="rating-number">4.6 (267)</span>
+          </div>
+          <div class="shipping">🚚 Free shipping</div>
+          <div class="compare">
+            <input type="checkbox" id="compare" />
+            <label for="compare">Compare</label>
+          </div>
+          <button onclick="addToCart()" class="buy-now">BUY NOW</button>
+        </div>
+        <div class="product-card">
+          <div class="badge-red">40% OFF - BREW4FREE</div>
+          <div class="product-image">
+            <img
+              src="/dist/images/K-Duo-hot-and-iced-Single-Serve-Carafe-Coffee-Maker-Gen2_5000378536_swatch.webp"
+              alt="Keurig Coffee Maker"
+            />
+          </div>
+          <div class="circle-border"></div>
+          <div class="circle"></div>
+          <h2 class="product-name">K-Duo hot and iced Serve</h2>
+          <div class="price">
+            <span class="current-price">$199.99</span>
+            <span class="original-price">$299.99</span>
+          </div>
+          <span class="Keurig">with Keurig® Starter Kit</span>
+          <div class="final-price"><p>$299.99</p></div>
+          <div class="coupon">
+            <span class="coupon-badge">Coupon</span>
+            <span class="percent">20% OFF - GIFTYBREWS</span>
+            <p class="excludes">Excludes Keurig Starter Kit</p>
+          </div>
+          <div class="ratings">
+            <span class="stars">⭐️⭐️⭐️⭐️⭐️</span>
+            <span class="rating-number">4.6 (267)</span>
+          </div>
+          <div class="shipping">🚚 Free shipping</div>
+          <div class="compare">
+            <input type="checkbox" id="compare" />
+            <label for="compare">Compare</label>
+          </div>
+          <button onclick="addToCart()" class="buy-now">BUY NOW</button>
+        </div>
+        <div class="product-card">
+          <div class="badge">2 FREE BOXES - BREW2FREE</div>
+          <div class="product-image">
+            <img
+              src="/dist/images/K-Elite-Single-Serve-Coffee-Maker_5000359832_swatch.webp"
+              alt="Keurig Coffee Maker"
+            />
+          </div>
+          <div class="circle-border"></div>
+          <div class="circle"></div>
+          <h2 class="product-name">K-Elite-Single-Serve</h2>
+          <div class="price">
+            <span class="current-price">$69.99</span>
+            <span class="original-price">$699.99</span>
+          </div>
+          <span class="Keurig">with Keurig® Starter Kit</span>
+          <div class="final-price"><p>$199.99</p></div>
+          <div class="coupon">
+            <span class="coupon-badge">Coupon</span>
+            <span class="percent">20% OFF - GIFTYBREWS</span>
+            <p class="excludes">Excludes Keurig Starter Kit</p>
+          </div>
+          <div class="ratings">
+            <span class="stars">⭐️⭐️⭐️⭐️⭐️</span>
+            <span class="rating-number">4.6 (267)</span>
+          </div>
+          <div class="shipping">🚚 Free shipping</div>
+          <div class="compare">
+            <input type="checkbox" id="compare" />
+            <label for="compare">Compare</label>
+          </div>
+          <button onclick="addToCart()" class="buy-now">BUY NOW</button>
+        </div>
+        <div class="product-card">
+          <div class="badge-red">2 FREE BOXES - BREW2FREE</div>
+          <div class="product-image">
+            <img
+              src="/dist/images/K-Select-Coffee-Maker_5000359828_swatch.webp"
+              alt="Keurig Coffee Maker"
+            />
+          </div>
+          <div class="circle-border"></div>
+          <div class="circle"></div>
+          <h2 class="product-name">K Select Coffee Maker</h2>
+          <div class="price">
+            <span class="current-price">$999.99</span>
+            <span class="original-price">$1999.99</span>
+          </div>
+          <span class="Keurig">with Keurig® Starter Kit</span>
+          <div class="final-price"><p>$1999.99</p></div>
+          <div class="coupon">
+            <span class="coupon-badge">Coupon</span>
+            <span class="percent">20% OFF - GIFTYBREWS</span>
+            <p class="excludes">Excludes Keurig Starter Kit</p>
+          </div>
+          <div class="ratings">
+            <span class="stars">⭐️⭐️⭐️⭐️⭐️</span>
+            <span class="rating-number">4.6 (267)</span>
+          </div>
+          <div class="shipping">🚚 Free shipping</div>
+          <div class="compare">
+            <input type="checkbox" id="compare" />
+            <label for="compare">Compare</label>
+          </div>
+          <button onclick="addToCart()" class="buy-now">BUY NOW</button>
+        </div>
+        <div class="product-card">
+          <div class="badge">2 FREE BOXES - BREW2FREE</div>
+          <div class="product-image">
+            <img
+              src="/dist/images/K-Duo-Single-Serve-Carafe-Coffee-Maker_5000204977_swatch.webp"
+              alt="Keurig Coffee Maker"
+            />
+          </div>
+          <div class="circle-border"></div>
+          <div class="circle"></div>
+          <h2 class="product-name">K Duo Single Serve Maker</h2>
+          <div class="price">
+            <span class="current-price">$98.99</span>
+            <span class="original-price">$189.99</span>
+          </div>
+          <span class="Keurig">with Keurig® Starter Kit</span>
+          <div class="final-price"><p>$189.99</p></div>
+          <div class="coupon">
+            <span class="coupon-badge">Coupon</span>
+            <span class="percent">20% OFF - GIFTYBREWS</span>
+            <p class="excludes">Excludes Keurig Starter Kit</p>
+          </div>
+          <div class="ratings">
+            <span class="stars">⭐️⭐️⭐️⭐️⭐️</span>
+            <span class="rating-number">4.6 (267)</span>
+          </div>
+          <div class="shipping">🚚 Free shipping</div>
+          <div class="compare">
+            <input type="checkbox" id="compare" />
+            <label for="compare">Compare</label>
+          </div>
+          <button onclick="addToCart()" class="buy-now">BUY NOW</button>
+        </div>
+        <div class="product-card">
+          <div class="badge-red">2 FREE BOXES - BREW2FREE</div>
+          <div class="product-image">
+            <img
+              src="/dist/images/K-Supreme-Plus-SMART-Coffee-Maker_5000365542_swatch.webp"
+              alt="Keurig Coffee Maker"
+            />
+          </div>
+          <div class="circle-border"></div>
+          <div class="circle"></div>
+          <h2 class="product-name">K-Supreme-Plus-SMART</h2>
+          <div class="price">
+            <span class="current-price">$79.99</span>
+            <span class="original-price">$179.99</span>
+          </div>
+          <span class="Keurig">with Keurig® Starter Kit</span>
+          <div class="final-price"><p>$179.99</p></div>
+          <div class="coupon">
+            <span class="coupon-badge">Coupon</span>
+            <span class="percent">20% OFF - GIFTYBREWS</span>
+            <p class="excludes">Excludes Keurig Starter Kit</p>
+          </div>
+          <div class="ratings">
+            <span class="stars">⭐️⭐️⭐️⭐️⭐️</span>
+            <span class="rating-number">4.6 (267)</span>
+          </div>
+          <div class="shipping">🚚 Free shipping</div>
+          <div class="compare">
+            <input type="checkbox" id="compare" />
+            <label for="compare">Compare</label>
+          </div>
+          <button onclick="addToCart()" class="buy-now">BUY NOW</button>
+        </div>
+        <div class="product-card">
+          <div class="badge">40% OFF-BREW4LIFE</div>
+          <div class="product-image">
+            <img
+              src="/dist/images/K-Supreme-SMART-Coffee-Maker_5000367509_swatch.webp"
+              alt="Keurig Coffee Maker"
+            />
+          </div>
+          <div class="circle-border"></div>
+          <div class="circle"></div>
+          <h2 class="product-name">K Supreme SMART Coffee Maker</h2>
+          <div class="price">
+            <span class="current-price">$229.99</span>
+            <span class="original-price">$239.99</span>
+          </div>
+          <span class="Keurig">with Keurig® Starter Kit</span>
+          <div class="final-price"><p>$239.99</p></div>
+          <div class="coupon">
+            <span class="coupon-badge">Coupon</span>
+            <span class="percent">20% OFF - GIFTYBREWS</span>
+            <p class="excludes">Excludes Keurig Starter Kit</p>
+          </div>
+          <div class="ratings">
+            <span class="stars">⭐️⭐️⭐️⭐️⭐️</span>
+            <span class="rating-number">4.6 (267)</span>
+          </div>
+          <div class="shipping">🚚 Free shipping</div>
+          <div class="compare">
+            <input type="checkbox" id="compare" />
+            <label for="compare">Compare</label>
+          </div>
+          <button onclick="addToCart()" class="buy-now">BUY NOW</button>
+        </div>
+        <div class="product-card">
+          <div class="badge-red">40% OFF-BREW4LIFE</div>
+          <div class="product-image">
+            <img
+              src="/dist/images/K50-Coffee-Maker_5000204441_swatch.webp"
+              alt="Keurig Coffee Maker"
+            />
+          </div>
+          <div class="circle-border"></div>
+          <div class="circle"></div>
+          <h2 class="product-name">K50-Coffee-Maker</h2>
+          <div class="price">
+            <span class="current-price">$222.99</span>
+            <span class="original-price">$122.99</span>
+          </div>
+          <span class="Keurig">with Keurig® Starter Kit</span>
+          <div class="final-price"><p>$122.99</p></div>
+          <div class="coupon">
+            <span class="coupon-badge">Coupon</span>
+            <span class="percent">20% OFF - GIFTYBREWS</span>
+            <p class="excludes">Excludes Keurig Starter Kit</p>
+          </div>
+          <div class="ratings">
+            <span class="stars">⭐️⭐️⭐️⭐️⭐️</span>
+            <span class="rating-number">4.6 (267)</span>
+          </div>
+          <div class="shipping">🚚 Free shipping</div>
+          <div class="compare">
+            <input type="checkbox" id="compare" />
+            <label for="compare">Compare</label>
+          </div>
+          <button onclick="addToCart()" class="buy-now">BUY NOW</button>
+        </div>
+        <div class="product-card">
+          <div class="badge-red">2 FREE BOXES - BREW2FREE</div>
+          <div class="product-image">
+            <img
+              src="/dist/images/K-Cafe-Special-Edition-Coffee-Latte-Cappuccino-Maker_5000341465_swatch.webp"
+              alt="Keurig Coffee Maker"
+            />
+          </div>
+          <div class="circle-border"></div>
+          <div class="circle"></div>
+          <h2 class="product-name">K-Brew Special-Edition</h2>
+          <div class="price">
+            <span class="current-price">$99.99</span>
+            <span class="original-price">$199.99</span>
+          </div>
+          <span class="Keurig">with Keurig® Starter Kit</span>
+          <div class="final-price"><p>$199.99</p></div>
+          <div class="coupon">
+            <span class="coupon-badge">Coupon</span>
+            <span class="percent">20% OFF - GIFTYBREWS</span>
+            <p class="excludes">Excludes Keurig Starter Kit</p>
+          </div>
+          <div class="ratings">
+            <span class="stars">⭐️⭐️⭐️⭐️⭐️</span>
+            <span class="rating-number">4.6 (267)</span>
+          </div>
+          <div class="shipping">🚚 Free shipping</div>
+          <div class="compare">
+            <input type="checkbox" id="compare" />
+            <label for="compare">Compare</label>
+          </div>
+          <button onclick="addToCart()" class="buy-now">BUY NOW</button>
+        </div>
+        <div class="product-card">
+          <div class="badge">2 FREE BOXES - BREW2FREE</div>
+          <div class="product-image">
+            <img
+              src="/dist/images/K-Brew-and-Chill-Single-Serve-Coffee-Maker_5000380296_swatch.webp"
+              alt="Keurig Coffee Maker"
+            />
+          </div>
+          <div class="circle-border"></div>
+          <div class="circle"></div>
+          <h2 class="product-name">K-Brew + Chill™ Coffee Maker</h2>
+          <div class="price">
+            <span class="current-price">$99.99</span>
+            <span class="original-price">$199.99</span>
+          </div>
+          <span class="Keurig">with Keurig® Starter Kit</span>
+          <div class="final-price"><p>$199.99</p></div>
+          <div class="coupon">
+            <span class="coupon-badge">Coupon</span>
+            <span class="percent">20% OFF - GIFTYBREWS</span>
+            <p class="excludes">Excludes Keurig Starter Kit</p>
+          </div>
+          <div class="ratings">
+            <span class="stars">⭐️⭐️⭐️⭐️⭐️</span>
+            <span class="rating-number">4.6 (267)</span>
+          </div>
+          <div class="shipping">🚚 Free shipping</div>
+          <div class="compare">
+            <input type="checkbox" id="compare" />
+            <label for="compare">Compare</label>
+          </div>
+          <button onclick="addToCart()" class="buy-now">BUY NOW</button>
+        </div>
+      </div>
+      <!-- <div class="product">
+        <div class="product-banner">2 free boxes - BREW2FREE</div>
+        <div class="image-holder">
+          <img
+            src="/dist/images/K-Brew-and-Chill-Single-Serve-Coffee-Maker_5000380296_swatch.webp"
+            alt=""
+          />
+        </div>
+        <div class="description">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
+          esse, illo sunt magnam nihil, inventore laborum fugit hic perferendis
+          perspiciatis harum? Reiciendis animi porro cupiditate cum explicabo
+          excepturi, dolore nesciunt!
+        </div>
+        <div class="buy">
+          <div class="buy-now">BUY NOW</div>
+        </div>
+      </div> -->
+    </div>
+    <footer class="footer">
+      <div class="top-bar">
+        <p>
+          <span>📍</span> Find a Store &bull; Customer Support:
+          866-901-BREW(2739)
+        </p>
+        <div class="social-links">
+          <span>Follow Us</span>
+          <a href="#">🐦</a>
+          <a href="#">📘</a>
+          <a href="#">📸</a>
+        </div>
+      </div>
+      <div class="footer-content">
+        <!-- Left Column -->
+        <div class="footer-column">
+          <div class="footer-section">
+            <h4>Shop</h4>
+            <ul>
+              <li><a href="#">Coffee Makers</a></li>
+              <li><a href="#">Beverages</a></li>
+              <li><a href="#">Iced</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Orders</h4>
+            <ul>
+              <li><a href="#">Track Your Order</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">Auto Delivery Orders</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>About Us</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Sustainability</a></li>
+              <li><a href="#">Accepted Payment</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Middle Column -->
+        <div class="footer-column">
+          <div class="footer-section">
+            <h4>Helpful Info</h4>
+            <ul>
+              <li><a href="#">Register Your Appliance</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Product Recall</a></li>
+              <li><a href="#">Business Solution</a></li>
+              <li><a href="#">Site Map</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">CA Notice at Collection</a></li>
+              <li>
+                <a href="#">Do Not Sell or Share My Personal Information</a>
+              </li>
+              <li><a href="#">Keurig Perks Terms and Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="footer-column">
+          <div class="footer-section join-mailing-list">
+            <h4>Join Our Mailing List</h4>
+            <p class="mailing-list">
+              Stay up-to-date with the latest news and new arrivals direct to
+              your inbox.
+            </p>
+            <form action="#" method="post">
+              <input type="email" placeholder="Your email" required />
+              <button type="submit">Sign Up</button>
+            </form>
+          </div>
+          <div class="footer-section select-country">
+            <h4>Select Country</h4>
+            <span>🇺🇸 United States</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="app/app.js"></script>
+  </body>
+</html>

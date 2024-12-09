@@ -54,14 +54,14 @@
 //   initCartListener();
 // });
 
-let cartItemCount = 0;
+// let cartItemCount = 0;
 
-function addToCart() {
-  cartItemCount++;
-  updateCartCount();
-}
+// function addToCart() {
+//   cartItemCount++;
+//   updateCartCount();
+// }
 
-function updateCartCount() {
-  const addNumElement = document.querySelector(".addNum");
-  addNumElement.textContent = cartItemCount;
-}
+// function updateCartCount() {
+//   const addNumElement = document.querySelector(".addNum");
+//   addNumElement.textContent = cartItemCount;
+// }

@@ -615,6 +615,19 @@
         </div>
       </div>
     </footer>
+    <script>
+      // Function to update the cart count
+      function addToCart() {
+        // Select the cart number element
+        const cartNumberElement = document.querySelector(".addNum");
+
+        // Parse the current cart number, increment it, and update the value
+        const currentCartNumber =
+          parseInt(cartNumberElement.textContent, 10) || 0;
+        cartNumberElement.textContent = currentCartNumber + 1;
+      }
+    </script>
+
     <script src="app/app.js"></script>
   </body>
 </html>

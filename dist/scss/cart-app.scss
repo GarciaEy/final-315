@@ -1,0 +1,110 @@
+#cart-app {
+  width: 100%;
+  margin: 0 auto;
+  /* background-color: lightgray; */
+  //   margin: 0 auto;
+  //   display: flex;
+  //   flex-wrap: wrap;
+  //   gap: 20px;
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    // width: 80%;
+    // background-color: blue;
+    // height: 100%;
+
+    .header-img-holder {
+      padding-top: 20px;
+      width: 1200px;
+      height: 210;
+
+      img {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+      }
+    }
+    .filter-nav {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+      //   font-family: Markot;
+      //   font-size: 14px;
+      //   font-weight: bold;
+      margin-bottom: 50px;
+    }
+
+    .filter-nav button {
+      height: 50px;
+      width: 140px;
+      background-color: transparent;
+      border: 2px solid #999;
+      padding: 10px 20px;
+      cursor: pointer;
+
+      font-family: Markot;
+      font-size: 14px;
+      //   font-weight: bolder;
+    }
+
+    .filter-nav .color {
+      height: 50px;
+      width: 100px;
+      background-color: transparent;
+      border: 2px solid #999;
+      padding: 10px 20px;
+      cursor: pointer;
+
+      font-family: Markot;
+      font-size: 14px;
+      //   font-weight: bolder;
+    }
+
+    .filter-nav .sort {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+      padding-left: 150px;
+
+      font-family: Markot;
+      font-size: 12px;
+      font-weight: lighter;
+    }
+
+    .sort-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+      padding-right: 100px;
+
+      font-family: Markot;
+      font-size: 12px;
+      font-weight: lighter;
+    }
+
+    .filter-nav select {
+      padding: 5px;
+      font-size: 1em;
+      border: none;
+      font-family: Markot;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .filter-nav button:hover,
+    .filter-nav select:hover {
+      //   background-color: #eaeaea;
+      border-color: black;
+    }
+  }
+}

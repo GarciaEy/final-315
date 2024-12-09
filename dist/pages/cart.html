@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cart</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/dist/css/styles.css">
+  </head>
+  <body>
+    <nav>
+      <div class="banner">
+        <p id="boxes">5 Boxes of K-Cup® Pods for $60.</p>
+        <p id="code">Use Code: BREW5FOR60l</p>
+        <p id="shop">shop now</p>
+        <p id="details">See Details</p>
+        <p id="x">X</p>
+      </div>
+      <div class="nav-middle">
+        <div class="nav-middle-top">
+          <div class="logo">
+            <img src="images/Keurig-Logo-Vector.svg-.png" alt="" />
+          </div>
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="shipping">FREE SHIPPING $29+</div>
+          <div class="account-holder">
+            <div class="support">
+              <i class="fa-solid fa-hands-holding-circle"></i>
+              <p>Support</p>
+            </div>
+            <a
+              href="pages/signin.html"
+              class="account"
+              style="text-decoration: none; color: black"
+            >
+              <i class="fa-solid fa-user"></i>
+              <p>Account</p>
+            </a>
+            <div class="cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <a href="/dist/pages/cart.html"
+                >Cart <span class="addNum">0</span>
+              </a>
+              <div class="item-text"></div>
+            </div>
+          </div>
+        </div>
+        <div class="nav-middle-bottom">
+          <ul id="menu">
+            <li id="kit">Keurig® Starter Kit</li>
+            <li id="delivery">Start Auto-Delivery</li>
+            <li id="beverages">beverages</li>
+            <li id="coffee-makers">coffee Makers</li>
+            <li id="accessories">Accessories</li>
+            <li id="deal">
+              <i class="fa-regular fa-clock"></i>
+              <p>Deals</p>
+            </li>
+            <li id="recipes">recipes and More</li>
+            <li id="outlet">
+              <i class="fa-solid fa-tag"></i>
+              <p>Outlet</p>
+            </li>
+            <li id="sustainability">Sustainability</li>
+            <li id="perks">Perks</li>
+          </ul>
+        </div>
+      </div>
+      <div class="nav-bottom">
+        <div class="box-1">
+          EXTRA 20% off Beverage Sale Prices Use code: GIFTYBREWS Ends 12/11.
+        </div>
+        <div class="box-2">
+          Save $150 on a K-Cafe® Special Edition when you build a Starter Kit
+          BUILD YOUR KIT
+        </div>
+        <div class="box-3">
+          TOP PICK! Save over 50% on a K-Select® - only $69.99 No Coupon Needed
+          SHOP NOW
+        </div>
+        <div class="box-4">
+          20% Off Accessories Use Code: GIFTYBREWS Ends 12/11.
+        </div>
+      </div>
+      <div class="links"></div>
+    </nav>
+
+    <div id="cart-app">
+      <div class="wrapper">
+        <div class="header-img-holder">
+          <img src="/dist/images/124cm-clpheader-desktop.webp" alt="" />
+        </div>
+        <div class="filter-nav">
+          <button>Categories v</button>
+          <button>Features v</button>
+          <button>Brew Type v</button>
+          <button>Reservoir v</button>
+          <button>Commercial v</button>
+          <button class="color">Color v</button>
+          <div class="sort">
+            <label for="sort" class="sort-text">Sort by</label>
+            <select id="sort">
+              <option>Popularity (all time)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    <footer class="footer">
+      <div class="top-bar">
+        <p>
+          <span>📍</span> Find a Store &bull; Customer Support:
+          866-901-BREW(2739)
+        </p>
+        <div class="social-links">
+          <span>Follow Us</span>
+          <a href="#">🐦</a>
+          <a href="#">📘</a>
+          <a href="#">📸</a>
+        </div>
+      </div>
+      <div class="footer-content">
+        <!-- Left Column -->
+        <div class="footer-column">
+          <div class="footer-section">
+            <h4>Shop</h4>
+            <ul>
+              <li><a href="#">Coffee Makers</a></li>
+              <li><a href="#">Beverages</a></li>
+              <li><a href="#">Iced</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Orders</h4>
+            <ul>
+              <li><a href="#">Track Your Order</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">Auto Delivery Orders</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>About Us</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Sustainability</a></li>
+              <li><a href="#">Accepted Payment</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Middle Column -->
+        <div class="footer-column">
+          <div class="footer-section">
+            <h4>Helpful Info</h4>
+            <ul>
+              <li><a href="#">Register Your Appliance</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Product Recall</a></li>
+              <li><a href="#">Business Solution</a></li>
+              <li><a href="#">Site Map</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">CA Notice at Collection</a></li>
+              <li>
+                <a href="#">Do Not Sell or Share My Personal Information</a>
+              </li>
+              <li><a href="#">Keurig Perks Terms and Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="footer-column">
+          <div class="footer-section join-mailing-list">
+            <h4>Join Our Mailing List</h4>
+            <p class="mailing-list">
+              Stay up-to-date with the latest news and new arrivals direct to
+              your inbox.
+            </p>
+            <form action="#" method="post">
+              <input type="email" placeholder="Your email" required />
+              <button type="submit">Sign Up</button>
+            </form>
+          </div>
+          <div class="footer-section select-country">
+            <h4>Select Country</h4>
+            <span>🇺🇸 United States</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // Function to update the cart count
+      function addToCart() {
+        // Select the cart number element
+        const cartNumberElement = document.querySelector(".addNum");
+
+        // Parse the current cart number, increment it, and update the value
+        const currentCartNumber =
+          parseInt(cartNumberElement.textContent, 10) || 0;
+        cartNumberElement.textContent = currentCartNumber + 1;
+      }
+    </script>
+
+    <script src="app/app.js"></script>
+  </body>
+</html>
